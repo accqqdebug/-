@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "model_logit_parity": {
+    "64": {
+      "shape": [
+        2,
+        1000
+      ],
+      "max_abs_diff": 0.0,
+      "bitwise_equal": true
+    },
+    "224": {
+      "shape": [
+        2,
+        1000
+      ],
+      "max_abs_diff": 0.0,
+      "bitwise_equal": true
+    }
+  },
+  "GEAR_probability_bitwise_equal": true,
+  "actual_extra_calls": [
+    [
+      "high288",
+      3
+    ],
+    [
+      "flip288",
+      1
+    ],
+    [
+      "refine320",
+      1
+    ]
+  ],
+  "independent_import_without_experiment_modules": true,
+  "parameter_count": 15245862,
+  "block3_depth": 6,
+  "block4_depth": 2,
+  "tested_checkpoint": "SD_Transformer_v2-T_1.8M_1x4_w4a1t4_74_5.pth",
+  "device": "CPU FP32",
+  "weights_in_archive": false,
+  "scope": "Current GEAR classification backbone and frozen inference; no model improvement claim."
+}

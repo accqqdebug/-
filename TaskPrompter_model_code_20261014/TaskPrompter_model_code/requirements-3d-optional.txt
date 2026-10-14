@@ -1,0 +1,3 @@
+# Only for optional FCOS3DHead/FPN; choose an MMCV build compatible with Torch/CUDA.
+mmcv-full==1.5.0
+termcolor==2.4.0

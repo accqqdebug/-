@@ -1,0 +1,134 @@
+[
+  {
+    "file": "models/__init__.py",
+    "source": "/root/autodl-tmp/projects_dir/Multi-Task-Transformer/TaskPrompter/models/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "classes": []
+  },
+  {
+    "file": "models/taskprompter_wrapper.py",
+    "source": "/root/autodl-tmp/projects_dir/Multi-Task-Transformer/TaskPrompter/models/taskprompter_wrapper.py",
+    "bytes": 47779,
+    "sha256": "8a7e8ed35292f100aabd0068e86d105525c9beafde3b2e76e9aae2deed50f374",
+    "classes": [
+      "TaskModulatedSpikingAdapter",
+      "IndependentTaskSpikingAdapters",
+      "TaskStateRetentionGate",
+      "TaskConditionedFeatureGate",
+      "TaskPrompterWrapper"
+    ]
+  },
+  {
+    "file": "models/spiking/__init__.py",
+    "source": "/root/autodl-tmp/projects_dir/Multi-Task-Transformer/TaskPrompter/models/spiking/__init__.py",
+    "bytes": 251,
+    "sha256": "9d6fe971cfe2dd9819376e37c0d9ec2b6d94759fd8b7b1f4671c896a919e5b3d",
+    "classes": []
+  },
+  {
+    "file": "models/spiking/prompt_dynamics.py",
+    "source": "/root/autodl-tmp/projects_dir/Multi-Task-Transformer/TaskPrompter/models/spiking/prompt_dynamics.py",
+    "bytes": 22131,
+    "sha256": "4f579b3f37f832e0154f2300fbb281d4cd8d9072004dfaaa0e71569cf0781e17",
+    "classes": [
+      "TaskRelationalSpikingPrompt"
+    ]
+  },
+  {
+    "file": "models/spiking/task_routed_memory.py",
+    "source": "/root/autodl-tmp/projects_dir/Multi-Task-Transformer/TaskPrompter/models/spiking/task_routed_memory.py",
+    "bytes": 10365,
+    "sha256": "6d446b9b393489b52b51c809df4d343db817241830320c39088990348a87f3e3",
+    "classes": [
+      "TaskRoutedSpikingMemory"
+    ]
+  },
+  {
+    "file": "models/transformers/taskprompter.py",
+    "source": "/root/autodl-tmp/projects_dir/Multi-Task-Transformer/TaskPrompter/models/transformers/taskprompter.py",
+    "bytes": 43685,
+    "sha256": "b7bc4fcfd341983ce29d177033ab7e9d2881733145fb3d05a365e08a209e5dd8",
+    "classes": [
+      "Attention",
+      "Block",
+      "TaskPrompter",
+      "ConvHead",
+      "DEConvHead"
+    ]
+  },
+  {
+    "file": "models/transformers/taskprompter_swin.py",
+    "source": "/root/autodl-tmp/projects_dir/Multi-Task-Transformer/TaskPrompter/models/transformers/taskprompter_swin.py",
+    "bytes": 39220,
+    "sha256": "7cf7628c14b2000559b04c838c769993382a4bc6d49d0a4672a0fe5df4cfdd83",
+    "classes": [
+      "WindowAttention",
+      "SwinTransformerBlock",
+      "PatchMerging",
+      "BasicLayer",
+      "TaskPrompterSwin"
+    ]
+  },
+  {
+    "file": "detection_toolbox/__init__.py",
+    "source": "/root/autodl-tmp/projects_dir/Multi-Task-Transformer/TaskPrompter/detection_toolbox/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "classes": []
+  },
+  {
+    "file": "detection_toolbox/det_head.py",
+    "source": "/root/autodl-tmp/projects_dir/Multi-Task-Transformer/TaskPrompter/detection_toolbox/det_head.py",
+    "bytes": 20358,
+    "sha256": "6508e67151e4eaa74b3ac8b65ae92ac33ac3394bbd1fd7efe66a5a2ffd80e906",
+    "classes": [
+      "Scale",
+      "FCOS3DHead"
+    ]
+  },
+  {
+    "file": "detection_toolbox/fpn.py",
+    "source": "/root/autodl-tmp/projects_dir/Multi-Task-Transformer/TaskPrompter/detection_toolbox/fpn.py",
+    "bytes": 8672,
+    "sha256": "a08616387911b47d7e9fdac6675cd5daccd8018168438e6296659e5ad0d376e0",
+    "classes": [
+      "FPN"
+    ]
+  },
+  {
+    "file": "detection_toolbox/mm_builder.py",
+    "source": "/root/autodl-tmp/projects_dir/Multi-Task-Transformer/TaskPrompter/detection_toolbox/mm_builder.py",
+    "bytes": 1400,
+    "sha256": "0bd9febc78f41ca4d5a45ad5962ce4f1fa0526a5b4c9a77b39f4b669d938e556",
+    "classes": []
+  },
+  {
+    "file": "intent_neuron_candidate.py",
+    "source": "/root/autodl-tmp/TaskPrompter_artifacts/intent_evidence_20261014_171811/intent_neuron_candidate.py",
+    "bytes": 2712,
+    "sha256": "1678c5e1c4afe67f790f63c7dcd279d3c7e41963fba6783a92dbc7997a836a7e",
+    "classes": [
+      "IntentNeuronCandidate"
+    ]
+  },
+  {
+    "file": "intent_analog_control.py",
+    "source": "/root/autodl-tmp/TaskPrompter_artifacts/intent_evidence_20261014_171811/intent_analog_control.py",
+    "bytes": 2213,
+    "sha256": "caf9f79877e854860b082a7f4d5a312a3261415b6b0d01fcf491d56ee0df4f8d",
+    "classes": [
+      "IntentAnalogControl"
+    ]
+  },
+  {
+    "file": "intent_evidence_adapter.py",
+    "source": "/root/autodl-tmp/TaskPrompter_artifacts/intent_evidence_20261014_171811/intent_evidence_adapter.py",
+    "bytes": 9624,
+    "sha256": "8bed4e9011f579d7e359a7c5b1ff702bac442c5ed66e601f7d7edc688f8c29de",
+    "classes": [
+      "EvidenceAdapter",
+      "TargetStateProjection"
+    ]
+  }
+]

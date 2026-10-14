@@ -1,0 +1,50 @@
+{
+  "source_project": "/root/.conda/QSD-Transformer",
+  "scope": "GEAR classification backbone and frozen inference only; detection/segmentation implementations excluded",
+  "original_sources": [
+    {
+      "source": "/root/.conda/QSD-Transformer/classification/models.py",
+      "destination": "qsd_gear/models.py",
+      "original_sha256": "1dd877d6695d3c04ba10c8defa5db5a7b46ba2c28fea130a0fdcc145059abbba",
+      "packaged_sha256": "22eec53d406cf3f0666e6f7554f0bc9c0e58f82d72185fd71fd58041f56966b2"
+    },
+    {
+      "source": "/root/.conda/QSD-Transformer/classification/quan_w.py",
+      "destination": "qsd_gear/quan_w.py",
+      "original_sha256": "09e19cf22b89469c9c58b0ae60a124fc383bfb70aca35b11319ec2753f2d1f09",
+      "packaged_sha256": "591eb601acbdfbe74348df4d2a589d84aff5da1153cd2369fb0bbeda0ed0a336"
+    },
+    {
+      "source": "/root/.conda/QSD-Transformer/classification/_quan_base_plus.py",
+      "destination": "qsd_gear/_quan_base_plus.py",
+      "original_sha256": "965bca4b0178097a627412a01874387cb2b6a2506272518e232e8a2de4af6338",
+      "packaged_sha256": "52775eca037acb8563f6ae2c00d73d4fab2cb9e3fc42452bed9954a2dbd73b53"
+    }
+  ],
+  "changes": [
+    "package-relative imports",
+    "remove original standalone demo entry point",
+    "standalone strict checkpoint loader",
+    "extract pure routing functions; no experiment runners"
+  ],
+  "excluded": [
+    "experiments",
+    "training/evaluation runners",
+    "datasets",
+    "prediction caches",
+    "logs",
+    "checkpoints",
+    "paper/LaTeX"
+  ],
+  "files": {
+    "qsd_gear/__init__.py": "cf88683e535193eb664a1a9ecd7e7271cfe05eb2116cfce19f492978779d60d0",
+    "qsd_gear/_quan_base_plus.py": "52775eca037acb8563f6ae2c00d73d4fab2cb9e3fc42452bed9954a2dbd73b53",
+    "qsd_gear/inference.py": "619fbc38c839e41bb6423209c1ea6e4f8fcd9aea6c5431064ae3ab5c2ca10e43",
+    "qsd_gear/loading.py": "838fe17dc215798ad70248e449529575b094346cd5a3fa153ba93e7267b4d09f",
+    "qsd_gear/models.py": "22eec53d406cf3f0666e6f7554f0bc9c0e58f82d72185fd71fd58041f56966b2",
+    "qsd_gear/ops.py": "4220d7b7c5302a3245fab0b2462183d365dd980ce8fca4a50f279555a20de813",
+    "qsd_gear/preprocess.py": "c23d921fcb4024fa6ea9d9578359c162c9e88f004c0afa9e245e40fc109256eb",
+    "qsd_gear/quan_w.py": "591eb601acbdfbe74348df4d2a589d84aff5da1153cd2369fb0bbeda0ed0a336",
+    "qsd_gear/routing.py": "34d5ab4f5b3959069c47ca527ec48b106a8b354d40dc3ab2dcef8c3403c03e06"
+  }
+}

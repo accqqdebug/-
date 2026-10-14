@@ -1,0 +1,9 @@
+{
+  "syntax_files": 15,
+  "isolated_core_imports": 8,
+  "candidate_forward": true,
+  "optional_imports": [
+    "detection_toolbox.det_head",
+    "detection_toolbox.fpn"
+  ]
+}

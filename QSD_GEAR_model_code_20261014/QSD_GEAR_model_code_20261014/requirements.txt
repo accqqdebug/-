@@ -1,0 +1,6 @@
+# Versions used to verify this package on the existing server.
+torch==2.0.1
+torchvision==0.15.2
+timm==0.6.12
+numpy==1.24.2
+Pillow>=8

@@ -1,0 +1,6 @@
+torch>=2.0
+torchvision>=0.15
+spikingjelly==0.0.0.0.14
+numpy
+loguru
+opencv-python

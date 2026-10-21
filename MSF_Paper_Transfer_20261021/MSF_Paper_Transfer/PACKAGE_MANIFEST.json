@@ -1,0 +1,438 @@
+{
+  "regular_file_count": 87,
+  "maximum_allowed": 100,
+  "layout": "all entries are ordinary files under one top-level folder",
+  "files": [
+    {
+      "path": "EXPERIMENT_CHECKLIST.zh-CN.md",
+      "bytes": 5313,
+      "sha256": "c8fcc2a495ba6e0d7eb22e4121e86c5f53a1225afb97595fa897a4e32faea909"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 11371,
+      "sha256": "0ec3668d3274bcf29e8a29e9576d5a2cd96fc78d3c5bec4387355a796e5d9088"
+    },
+    {
+      "path": "README.zh-CN.md",
+      "bytes": 5099,
+      "sha256": "5ee3d735ecc67ba8eda70ee8b42cc4c238f9fa6b9ed7680607f0f016b44def0a"
+    },
+    {
+      "path": "SOURCE_AND_ENV.json",
+      "bytes": 2382,
+      "sha256": "e93c275ff1ac7720359b7421bb1b17703762f4206f920d3c9314afb7922b05ea"
+    },
+    {
+      "path": "download_coco.py",
+      "bytes": 3992,
+      "sha256": "af0421d64116d611e0a777fb00383197c325d8591d42953d044dcbbacf33f1ba"
+    },
+    {
+      "path": "evaluate_checkpoint.py",
+      "bytes": 1809,
+      "sha256": "a78c3652f43f3d655c51cc41526f15e91d6e36bcf9fce2d50814498b13e00515"
+    },
+    {
+      "path": "msf-paper-port/yolox/__init__.py",
+      "bytes": 69,
+      "sha256": "9c97cb7b2b455a87bb978549296364e634342ea2faa9b86dceb24fca31e8f1ee"
+    },
+    {
+      "path": "msf-paper-port/yolox/core/__init__.py",
+      "bytes": 152,
+      "sha256": "4b5688da5b9878a8ba6fde0b5b5cf2b5fa393400a90ae576fb80f76214791bc5"
+    },
+    {
+      "path": "msf-paper-port/yolox/core/launch.py",
+      "bytes": 4387,
+      "sha256": "98bdbb7ef2e04070c18c2a20a318095e05827bcc37dfb6d51c31bc003e0f9ff4"
+    },
+    {
+      "path": "msf-paper-port/yolox/core/trainer.py",
+      "bytes": 13757,
+      "sha256": "bd0f7cb8442a0f281e428a1f0080141cc17dec305de0574997701343ea2c6a13"
+    },
+    {
+      "path": "msf-paper-port/yolox/data/__init__.py",
+      "bytes": 354,
+      "sha256": "397dc999e094620a9ebcc4c87554522138aea449a98c3bc8b5563843530b4f47"
+    },
+    {
+      "path": "msf-paper-port/yolox/data/data_augment.py",
+      "bytes": 7372,
+      "sha256": "0d6bca01013b48b673c389d96d838d12a2f3928c73cf0d74ae1d93e4e960d800"
+    },
+    {
+      "path": "msf-paper-port/yolox/data/data_prefetcher.py",
+      "bytes": 1649,
+      "sha256": "37f3040017e2dace43072aa14ea3457a9d374c825a43cc02c09f6fa0ee576942"
+    },
+    {
+      "path": "msf-paper-port/yolox/data/dataloading.py",
+      "bytes": 3671,
+      "sha256": "16c6d159e8dea86909c8d3654c6010a1bad3ca3f5a83e8508ff4b45002893aeb"
+    },
+    {
+      "path": "msf-paper-port/yolox/data/datasets/__init__.py",
+      "bytes": 311,
+      "sha256": "550197aa8a8cae59e149f872a09e8b9c2539068c6a197b2716c7dd5e16e94863"
+    },
+    {
+      "path": "msf-paper-port/yolox/data/datasets/coco.py",
+      "bytes": 9473,
+      "sha256": "154a25541edf139ad6e3904cf404995b0d878167c2429316e2061b90179bc845"
+    },
+    {
+      "path": "msf-paper-port/yolox/data/datasets/coco_classes.py",
+      "bytes": 1296,
+      "sha256": "b38193c481a73f1f674cedab9e551b15b39b1a7aaed3e09e16505362cc54ad51"
+    },
+    {
+      "path": "msf-paper-port/yolox/data/datasets/datasets_wrapper.py",
+      "bytes": 3752,
+      "sha256": "0d0ca7037b6250b4603957fd10dc213986ce8c2f18a0a41d37a18560520c2f88"
+    },
+    {
+      "path": "msf-paper-port/yolox/data/datasets/mosaicdetection.py",
+      "bytes": 9598,
+      "sha256": "53f203b5cb5318a1dda1fa51a17d2698835bb2e9781d4a244775e4edb58d0df4"
+    },
+    {
+      "path": "msf-paper-port/yolox/data/datasets/voc.py",
+      "bytes": 13743,
+      "sha256": "d2ace96ed19a29a4cf9018395cea51b0fd67daa542c2621b5a1fb4296bfc381f"
+    },
+    {
+      "path": "msf-paper-port/yolox/data/datasets/voc_classes.py",
+      "bytes": 442,
+      "sha256": "c611b625854a2cd037f1f53b96cc3d3ef01c7ea7f2813029ddc63282019e5972"
+    },
+    {
+      "path": "msf-paper-port/yolox/data/opencv_flow.py",
+      "bytes": 5524,
+      "sha256": "0e0b01c19f554d40323120e00a0bd84a573dc251d4c11334792b867a16e33df2"
+    },
+    {
+      "path": "msf-paper-port/yolox/data/samplers.py",
+      "bytes": 2854,
+      "sha256": "5b523db350449181c63bb51b6f4cfd1f10e08c50ef363501fc86f3a52e033c74"
+    },
+    {
+      "path": "msf-paper-port/yolox/data/src/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "msf-paper-port/yolox/data/src/io/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "msf-paper-port/yolox/data/src/io/box_filtering.py",
+      "bytes": 1217,
+      "sha256": "ed8f17da499fe782a28006ad2061718bc96a59d221178be867a5fc2ccd514a79"
+    },
+    {
+      "path": "msf-paper-port/yolox/data/src/io/box_loading.py",
+      "bytes": 1198,
+      "sha256": "9b8643cbcbea98e97ca28d52d8b1c890176dde5def3931270f0f21e15f1edc46"
+    },
+    {
+      "path": "msf-paper-port/yolox/data/src/io/dat_events_tools.py",
+      "bytes": 7363,
+      "sha256": "64e323e995c5a2828ee9840b17057780fb8ac81502dbf8fbd86fcebb8431fc7c"
+    },
+    {
+      "path": "msf-paper-port/yolox/data/src/io/npy_events_tools.py",
+      "bytes": 2056,
+      "sha256": "fb2fd76aa0bca9dad98f110b5866f85a06985febb2adf79c77d1862ed9a716cc"
+    },
+    {
+      "path": "msf-paper-port/yolox/data/src/io/psee_loader.py",
+      "bytes": 9298,
+      "sha256": "176ff119413afed35f613bb4ef058d3aae93e033e83740558965a45942461277"
+    },
+    {
+      "path": "msf-paper-port/yolox/data/src/metrics/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "msf-paper-port/yolox/data/src/metrics/coco_eval.py",
+      "bytes": 5453,
+      "sha256": "3d0f83f4f10650d07847e26fe653788af56108edeaba580e3756183d8a91d7bc"
+    },
+    {
+      "path": "msf-paper-port/yolox/data/src/psee_evaluator.py",
+      "bytes": 1637,
+      "sha256": "8f33d3bd2440ae9154a9c6e095f774c7a790d6ef9a4aa84c287d008feecd5f09"
+    },
+    {
+      "path": "msf-paper-port/yolox/data/src/visualize/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "msf-paper-port/yolox/data/src/visualize/vis_utils.py",
+      "bytes": 2835,
+      "sha256": "42b44fc30169b8ce06ffa4476b47493a55d9d6b24a25edb5ea8f0d062f7e880d"
+    },
+    {
+      "path": "msf-paper-port/yolox/evaluators/__init__.py",
+      "bytes": 178,
+      "sha256": "534b510b47d236833b71a42086daaba56d39249bb3a634d1514095acc37447a4"
+    },
+    {
+      "path": "msf-paper-port/yolox/evaluators/coco_evaluator.py",
+      "bytes": 11386,
+      "sha256": "390b7e1b7d04e7efd0b620a857e9512d09c62a0ab8bb23d49a2ce567add03045"
+    },
+    {
+      "path": "msf-paper-port/yolox/evaluators/voc_eval.py",
+      "bytes": 5631,
+      "sha256": "0c99dbe17e1609a717967ffa873eb76b3c545c8c1cecc1e8e347c82905b48363"
+    },
+    {
+      "path": "msf-paper-port/yolox/evaluators/voc_evaluator.py",
+      "bytes": 6564,
+      "sha256": "1acf4c80c7bff7a3f2ee62321a1a9bb6f9f52743ce08e0581b81651d2f798e95"
+    },
+    {
+      "path": "msf-paper-port/yolox/exp/__init__.py",
+      "bytes": 181,
+      "sha256": "1ca97998b61f674ab2184f18d9f2fde0f98e2c30731ee4f55c66b902b9ebe12c"
+    },
+    {
+      "path": "msf-paper-port/yolox/exp/base_exp.py",
+      "bytes": 1994,
+      "sha256": "74ad0fb5e1606f4506eeffed561616bbe46798982a1ec11eadeade9c8b9a2628"
+    },
+    {
+      "path": "msf-paper-port/yolox/exp/build.py",
+      "bytes": 1237,
+      "sha256": "d6a83ddc54b03e5087337acd8f28a67c44d961042146c595b5c5b1bd41b1f2ab"
+    },
+    {
+      "path": "msf-paper-port/yolox/exp/default/__init__.py",
+      "bytes": 990,
+      "sha256": "9d50afaba66422702d1eeb23208d096ba70c16d4aad7c3a3f8a1dc522303ef02"
+    },
+    {
+      "path": "msf-paper-port/yolox/exp/yolox_base.py",
+      "bytes": 13786,
+      "sha256": "8f27b2ca6932dc1bc638231eb1387b9dc210fdb4d7d30cd4ddda123bb252590e"
+    },
+    {
+      "path": "msf-paper-port/yolox/layers/__init__.py",
+      "bytes": 385,
+      "sha256": "2013e34eee9b96514ee10f89c900c233251c885464196893ebf612eadf29886d"
+    },
+    {
+      "path": "msf-paper-port/yolox/layers/cocoeval/cocoeval.cpp",
+      "bytes": 20824,
+      "sha256": "74f514b8dc7aeb945add7648397facd4d87c6795d6a7be385ed906bf087edc61"
+    },
+    {
+      "path": "msf-paper-port/yolox/layers/cocoeval/cocoeval.h",
+      "bytes": 3978,
+      "sha256": "e4a429b78c3d7074a0ee3be504d98ac9e62b7214cdaae03100fbe7c1145d93fa"
+    },
+    {
+      "path": "msf-paper-port/yolox/layers/fast_coco_eval_api.py",
+      "bytes": 5795,
+      "sha256": "08a67e7f8a0af8f8fe0a86436c95bd5695483a882e4354a1994ae63054dd214e"
+    },
+    {
+      "path": "msf-paper-port/yolox/layers/jit_ops.py",
+      "bytes": 4462,
+      "sha256": "b63e0f7ce15ca73e4773ea32aa7ab85c241b3a3163755a1474355dee1b47bf3c"
+    },
+    {
+      "path": "msf-paper-port/yolox/models/MHSANet.py",
+      "bytes": 21093,
+      "sha256": "e5a172be949c3ad9d1862a6603418202ac1074e41b6f7b56a1bd7b376510ecb3"
+    },
+    {
+      "path": "msf-paper-port/yolox/models/__init__.py",
+      "bytes": 308,
+      "sha256": "8e2442bf4c493db71bd6e872f384152a4fb4c76ae252cb43005380f58c7a8672"
+    },
+    {
+      "path": "msf-paper-port/yolox/models/attention.py",
+      "bytes": 6149,
+      "sha256": "81fa4be099a51e5057d4c20ca89fd747969f8ef602b4cd2af668ec826e466069"
+    },
+    {
+      "path": "msf-paper-port/yolox/models/build.py",
+      "bytes": 4266,
+      "sha256": "b54d6d266ca7ce56878f76407d4808646ab0196299a0157efd322b6f98d8a814"
+    },
+    {
+      "path": "msf-paper-port/yolox/models/darknet.py",
+      "bytes": 6037,
+      "sha256": "2911cdf98c1b9de1168a5aafa06d7234233e1697174165b3dfc47a233aab5ddc"
+    },
+    {
+      "path": "msf-paper-port/yolox/models/losses.py",
+      "bytes": 4650,
+      "sha256": "a78ebe27b713ca79e9c6adc32cebc0803d5db70aa91a9839be61598a565a8a29"
+    },
+    {
+      "path": "msf-paper-port/yolox/models/max_spikeformer.py",
+      "bytes": 6026,
+      "sha256": "4f8215d13b3ac4d081dc23a4847e5b5e3992cca169c64f483a2b50e38fc1b220"
+    },
+    {
+      "path": "msf-paper-port/yolox/models/network_blocks.py",
+      "bytes": 8010,
+      "sha256": "95bdc1a465a26e9f7086a1adf769ed42017c97f6100ed13b80e58205f1f674dc"
+    },
+    {
+      "path": "msf-paper-port/yolox/models/paper_components.py",
+      "bytes": 2835,
+      "sha256": "583ee6089eef0d858b684dd4928d65845119a505edecf541c0e33965f3b12840"
+    },
+    {
+      "path": "msf-paper-port/yolox/models/paper_transfer.py",
+      "bytes": 4979,
+      "sha256": "decddd4771fbc88e3e9b1d8a8fe5f6c4fcc2bd63dcb0cd88a3cdf8386ad6b332"
+    },
+    {
+      "path": "msf-paper-port/yolox/models/snn_network_blocks.py",
+      "bytes": 11335,
+      "sha256": "1e05d95ca6eb324b7c70ce408186207b882c007acfd9255ba6afbf4cccd6fe3b"
+    },
+    {
+      "path": "msf-paper-port/yolox/models/yolo_fpn.py",
+      "bytes": 2476,
+      "sha256": "a9284888d35dd69c5779c7697f0d97b82922ed11e632a741bdc20ce1b833d4bb"
+    },
+    {
+      "path": "msf-paper-port/yolox/models/yolo_head.py",
+      "bytes": 22465,
+      "sha256": "dd960bc05cde7bdcbdb5190f6aad2a36ada2020db83d1d80ed246f0269c394bc"
+    },
+    {
+      "path": "msf-paper-port/yolox/models/yolo_head_snn.py",
+      "bytes": 22522,
+      "sha256": "1e46e708aa0ef27337954101b91fab411089e104bf7b65edb3940f09d5ba69b4"
+    },
+    {
+      "path": "msf-paper-port/yolox/models/yolo_pafpn.py",
+      "bytes": 3803,
+      "sha256": "08fae343ea9afbf44b1b432b7ca2062eaf6170e588b9445b2ddae79dc4ec893d"
+    },
+    {
+      "path": "msf-paper-port/yolox/models/yolo_pafpn_fully_snn.py",
+      "bytes": 3876,
+      "sha256": "a292bbb3e5a42a887a59ae19f8ae5ad9f2a08d99f926ef5395ea31e22f75d8b6"
+    },
+    {
+      "path": "msf-paper-port/yolox/models/yolox.py",
+      "bytes": 1411,
+      "sha256": "a7c8c3e01851e03887eaf4ea60984dc7db622a0fdf6226046f792331fe4f5faa"
+    },
+    {
+      "path": "msf-paper-port/yolox/tools/__init__.py",
+      "bytes": 966,
+      "sha256": "63bc4fdf21a55fe8b69b53c59f1fe67b9b40f58f50bd33ab138554d8ffb573e7"
+    },
+    {
+      "path": "msf-paper-port/yolox/utils/__init__.py",
+      "bytes": 475,
+      "sha256": "1ac14a417fc01205b9682b84da615da8cbe6ad252e89790a3530b8462754284d"
+    },
+    {
+      "path": "msf-paper-port/yolox/utils/allreduce_norm.py",
+      "bytes": 2835,
+      "sha256": "cf5934faefe2b46c531e948ed5dbcc3923030522d511150f81a262d92527dbe4"
+    },
+    {
+      "path": "msf-paper-port/yolox/utils/boxes.py",
+      "bytes": 4471,
+      "sha256": "65d8341d67ec35d65f4a73ba8480ce536a8bb38f4b4088f99db82bc812ec9bcb"
+    },
+    {
+      "path": "msf-paper-port/yolox/utils/checkpoint.py",
+      "bytes": 1319,
+      "sha256": "5c7521577a88aeb15902643b583f90054468c83262603a343573f4833ce73e38"
+    },
+    {
+      "path": "msf-paper-port/yolox/utils/compat.py",
+      "bytes": 310,
+      "sha256": "a8f0dec9e0566cf0a09a211bc08ce47bc7abd6dd75d239ee85d8c0c5fe3e07ce"
+    },
+    {
+      "path": "msf-paper-port/yolox/utils/demo_utils.py",
+      "bytes": 3772,
+      "sha256": "fa1cbff7b62379af88bfc20ac5ac04607d1c891ee89477dd1a2e71c53666a504"
+    },
+    {
+      "path": "msf-paper-port/yolox/utils/dist.py",
+      "bytes": 8062,
+      "sha256": "02a50787c4ee0f6968392776326fc69421e3eb5c262a5aedb9195606d77c1505"
+    },
+    {
+      "path": "msf-paper-port/yolox/utils/ema.py",
+      "bytes": 2073,
+      "sha256": "143214fb779866cbb00b578d2078b5c870a23c9f45b54578c5c6eac4710cf62a"
+    },
+    {
+      "path": "msf-paper-port/yolox/utils/logger.py",
+      "bytes": 14420,
+      "sha256": "6d122f3a58d6a4462184a618e335fb1fcc7cbfeb86771d54fa8f3db3234c53f3"
+    },
+    {
+      "path": "msf-paper-port/yolox/utils/lr_scheduler.py",
+      "bytes": 6551,
+      "sha256": "4d06aa1fa1544c0a1c4455ec3fbed261789868b9102b3ec5bc57fc08e9c4e4a6"
+    },
+    {
+      "path": "msf-paper-port/yolox/utils/metric.py",
+      "bytes": 3456,
+      "sha256": "a71c6f1bd653743819537b02b94ac064bf434338931225e289242c7911ccdeca"
+    },
+    {
+      "path": "msf-paper-port/yolox/utils/model_utils.py",
+      "bytes": 5615,
+      "sha256": "6bef5eb92088f4af659c5e5163c113629ddcf8770ee2664954dc365bf95edfab"
+    },
+    {
+      "path": "msf-paper-port/yolox/utils/setup_env.py",
+      "bytes": 2675,
+      "sha256": "09d05ae2ac9ab42232cecbe3bf0186ecb89792a164e95ca0fcb1fc79d7f48296"
+    },
+    {
+      "path": "msf-paper-port/yolox/utils/visualize.py",
+      "bytes": 3599,
+      "sha256": "46f3b2a14d8381ed022e2bc90b593580070f14195b7310a2e92ac536e897680e"
+    },
+    {
+      "path": "performance.py",
+      "bytes": 12478,
+      "sha256": "915fc270ae4cdd5ede7c8e569b4f3b4152b4daa7345326c254ef4f107a5a94d8"
+    },
+    {
+      "path": "port_cpu_checks.json",
+      "bytes": 1289,
+      "sha256": "fc314ec6aea835bfb6a23912d90ad9ce9c34b7f9d9091478f7d84530b1a9d9c9"
+    },
+    {
+      "path": "requirements-runtime.txt",
+      "bytes": 387,
+      "sha256": "c20d552009697ef6f9b568ff0b2711ccf94b6f83fa85428733fa0deb18479296"
+    },
+    {
+      "path": "run_queue.py",
+      "bytes": 3155,
+      "sha256": "3b53ea39bad9cc0efcc0b3dde934229abb77e68e61a4b98d22f8b1b48ed94702"
+    },
+    {
+      "path": "smoke_port.py",
+      "bytes": 2734,
+      "sha256": "8c934d46e78be8146571f7c9f253836125f988e6efbe6cfad2254e646000fa29"
+    }
+  ],
+  "manifest_self": "PACKAGE_MANIFEST.json counts as one file; it is excluded from its own hash list"
+}

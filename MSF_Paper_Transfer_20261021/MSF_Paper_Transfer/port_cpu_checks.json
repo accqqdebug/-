@@ -1,0 +1,29 @@
+{
+  "device": "cpu",
+  "purpose": "synthetic integration checks, NOT performance evaluation",
+  "checks": [
+    "FCBR finite, both real detection branches receive gradients; reference direct path detached",
+    "T=1 KCL zero",
+    "gen1/baseline prediction shape and finite",
+    "gen1/baseline no cross-sample recurrent leakage",
+    "gen1/paper prediction shape and finite",
+    "gen1/paper no cross-sample recurrent leakage",
+    "gen1/paper full detection+aux backward finite",
+    "gen1/paper learned decay connected",
+    "gen1/paper_binary prediction shape and finite",
+    "gen1/paper_binary no cross-sample recurrent leakage",
+    "gen1/paper_binary full detection+aux backward finite",
+    "gen1/paper_binary learned decay connected",
+    "coco/baseline prediction shape and finite",
+    "coco/baseline no cross-sample recurrent leakage",
+    "coco/paper prediction shape and finite",
+    "coco/paper no cross-sample recurrent leakage",
+    "coco/paper full detection+aux backward finite",
+    "coco/paper learned decay connected",
+    "coco/paper_binary prediction shape and finite",
+    "coco/paper_binary no cross-sample recurrent leakage",
+    "coco/paper_binary full detection+aux backward finite",
+    "coco/paper_binary learned decay connected"
+  ],
+  "status": "passed"
+}
